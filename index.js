@@ -1,7 +1,7 @@
 const fs = require('fs')
 const esprima = require('esprima')
 
-const file = fs.readFileSync('./tbflot.js', 'utf8')
+const file = fs.readFileSync('./flot-widget.js', 'utf8')
 
 const tree = esprima.parseModule(file)
 const exportedModule = tree.body[tree.body.length - 1]

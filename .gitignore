@@ -1,3 +1,4 @@
 node_modules/
 package-lock.json
 tbflot.js
+flot-widget.js
